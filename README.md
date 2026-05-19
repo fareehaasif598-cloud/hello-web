@@ -7,7 +7,7 @@ Week One Assignment: Profile Page
 ![Picture of my previous profile page](portfolio%201.png)
 
 ## Live Link
-adding
+Live site: https://fareehaasif598-cloud.github.io/hello-web/
 
 
 ## Reflection
