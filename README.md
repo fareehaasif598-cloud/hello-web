@@ -4,7 +4,7 @@
 Week One Assignment: Profile Page
 
 ## Screenshot 
-![Picture of my previous profile page](portfolio%201.png)
+![Screenshot of my profile page](screenshot-assignment.png)
 
 ## Live Link
 Live site: https://fareehaasif598-cloud.github.io/hello-web/
