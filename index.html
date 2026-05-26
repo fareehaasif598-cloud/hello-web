@@ -4,15 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile Page</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
-    <header>
+    <header class="hero-section">
         <h1>Fareeha Asif</h1>
         <p>Aspiring web developer</p>
     </header>
 
-    <main>
-        <section>
+    <main class="page-content">
+        <section class="about-me">
             <h2>About Me</h2>
             <p>Hello! I'm Fareeha Asif, an aspiring web developer with a passion for creating beautiful and functional websites. I am currently working to strengthen my skills in HTML, CSS, and JavaScript, and I am excited to continue learning and growing in the field of web development.
             </p>
@@ -20,12 +26,11 @@
                 I am interested in web development and UI/UX design. 
                 My goal is to build my confidence, improve my skills and create a portfolio that showcases my skills and creativity. 
             </p>
-
         </section>
 
-        <section>
+        <section class="skills-interests">
             <h2>Skills and Interests</h2>
-            <ul>
+            <ul class="skills-list">
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>JavaScript</li>
@@ -33,25 +38,31 @@
                 <li>Creative Design</li>
                 <li>Gaming</li>
             </ul>
-            <img src="portfolio 1.png" alt="A photo of my previous portfolio I worked on" width="400">
+            <img class="portfolio-image" src="portfolio-1.png" alt="A photo of my previous portfolio I worked on" width="400">
             <p>
                 This is a screenshot of a previous portfolio I worked on. It was a great learning experience and helped me understand the basics of web design and development!
             </p>
         </section>
 
-        <section> 
+        <section class="contact-section"> 
             <h2>Connect With Me</h2>
             <p>
                 Here are a few ways to connect with me and see my work:
             </p>
-            <a href="https://www.linkedin.com/in/fareeha-asif-a6b854243" target="_blank">LinkedIn</a><br>
-
-            <a href="https://github.com/fareehaasif598-cloud" target="_blank">GitHub</a><br>
-
-            <a href="mailto:fareehaasif_598@hotmail.com" target="_blank">Email</a>
+            <ul class="contact-list">
+                <li>
+                    <a class="contact-link" href="https://www.linkedin.com/in/fareeha-asif-a6b854243" target="_blank">LinkedIn</a>
+                </li>
+                <li>
+                    <a class="contact-link" href="https://github.com/fareehaasif598-cloud" target="_blank">GitHub</a>
+                </li>
+                <li>
+                    <a class="contact-link" href="mailto:fareehaasif_598@hotmail.com" target="_blank">Email</a>
+                </li>
+            </ul>
         </section>
     </main>
-     <footer>
+     <footer class="footer">
         <p>&copy; 2026 Fareeha Asif</p>
      </footer>
 </body>
