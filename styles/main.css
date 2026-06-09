@@ -29,7 +29,7 @@ body {
     text-align: center;
     padding: 3rem 1.5rem;
 }
-
+/* Flexbox: header navigation */
 .nav-bar {
     display: flex;
     justify-content: space-between;
@@ -76,7 +76,7 @@ body {
     margin: 2rem auto;
     padding: 0 1rem;
 }
-.about-me, .skills-interests, .contact-section {
+.about-me, .skills-interests, .contact-section, .projects-section {
     background-color: var(--white);
     padding: 1.5rem;
     margin-bottom: 2rem;
@@ -85,7 +85,7 @@ body {
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     border: 0.15rem solid var(--pink);
 }
-.about-me:hover, .skills-interests:hover, .contact-section:hover {
+.about-me:hover, .skills-interests:hover, .contact-section:hover, .projects-section:hover {
     transform: translateY(-0.25rem);
     box-shadow: 0 0.75rem 2rem hsla(232, 70%, 28%, 0.3);
 }
@@ -122,6 +122,32 @@ p {
     margin: 1rem auto;
     border-radius: 1rem;
     box-shadow: 0 0.5rem 1rem hsla(232, 70%, 28%, 0.2);
+}
+
+/* Grid: projects section */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.project-card {
+    background-color: var(--lightbackground);
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 0.15rem solid var(--pink);
+    box-shadow: 0 0.5rem 1rem hsla(232, 70%, 28%, 0.2);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-card h3 {
+    color: var(--midnightblue);
+    margin-bottom: 0.5rem;
+}
+
+.project-card p {
+  margin-bottom: 0;
 }
 
 .contact-list {
