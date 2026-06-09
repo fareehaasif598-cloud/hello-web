@@ -1,4 +1,4 @@
-# Week One Assignment: Profile Page
+# Assignment: Profile Page
 
 ## Project Title
 Week One Assignment: Profile Page
